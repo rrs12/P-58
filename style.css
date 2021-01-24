@@ -4,6 +4,14 @@ body {
 	background-image: linear-gradient(to right, #22b5c3 31%, #fdbb2d 100%);
 }
 
+.menu {
+	background: white;
+	position: fixed;
+	width: 100%;
+	margin-top: 0px;
+	z-index: 10;
+}
+
 h1 {
 	text-shadow: 3px 3px darkcyan;
 	color: yellow;
@@ -13,6 +21,7 @@ h2 {
 	text-shadow: 3px 3px darkcyan;
 	color: yellow;
 }
+
 h1 {
 	font-size: 40px;
 	font-family: tangerine;
@@ -22,11 +31,6 @@ h2 {
 	font-size: 30px;
 }
 
-div {
-	margin-left: 510px;
-	height: 6px;
-	width: 240px;
-	background-color: white;
 }
 
 #main {
@@ -45,18 +49,16 @@ div {
 }
 
 .links {
-	float: left;
-	color:darkslateblue;
-	padding-top: 5px;
-	padding-left: 9px;
-	padding-right: 9px;
-	padding-bottom: 5px;
+	display: inline;
+	padding-left: 33px;
 	font-size: 20px;
-	font-family: fantasy;
+	padding-right: 25px;
 }
 
 .links:hover {
 	background-color: darkcyan;
+	font-size: 25px;
+	text-decoration: underline;
 }
 
 h3 {
@@ -65,23 +67,46 @@ h3 {
 	text-shadow: 3px 3px darkcyan;
 	font-family: tangerine;
 }
-h4{
-font-size: 30px
+
+h4 {
+	font-size: 30px
 }
-#ru{
-height: 800px;
+
+#ru {
+	height: 800px;
 }
-#mom{
-width: 500px
+
+#mom {
+	width: 500px
 }
-.menu{
-position: sticky;
+
+.menu {
+	position: sticky;
 }
-a{
-color: darkslateblue;
-text-decoration: none
+
+a {
+	color: darkslateblue;
+	text-decoration: none
 }
-img{
-height: 450px;
+
+img {
+	height: 450px;
 	width: 450px;
 }
+
+
+#contact {
+	align-content: center;
+}
+
+a {
+	text-decoration: none;
+	color: darkgoldenrod;
+	text-shadow: 2px 2px gainsboro;
+}
+#yt{
+width: 350px;
+height: 200px;
+}
+#sm{
+padding-left: 30px}
